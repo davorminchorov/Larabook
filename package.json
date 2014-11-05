@@ -1,0 +1,17 @@
+{
+  "name": "larabook",
+  "version": "1.0.0",
+  "description": "Larabook: Mini version of Facebook",
+  "main": "package.json",
+  "dependencies": {},
+  "devDependencies": {
+      "gulp": "^3.8.9",
+      "gulp-autoprefixer": "^0.0.7",
+      "gulp-sass": "^0.7.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ruffles",
+  "license": "ISC"
+}
