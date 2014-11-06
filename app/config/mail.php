@@ -15,7 +15,7 @@ return array(
 	|
 	*/
 
-	'driver' => 'smtp',
+	'driver' => 'mandrill',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -28,7 +28,7 @@ return array(
 	|
 	*/
 
-	'host' => 'smtp.gmail.com',
+	'host' => 'smtp.mandrillapp.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -54,7 +54,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => 'rufflesaurus@gmail.com', 'name' => 'Larabook Admin'),
+	'from' => array('address' => 'rufflesaurus@gmail.com', 'name' => 'Larabookmk Admin'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -80,7 +80,7 @@ return array(
 	|
 	*/
 
-	'username' => 'rufflesaurus@gmail.com',
+	'username' => null,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return array(
 	|
 	*/
 
-	'password' => 'Rufflesaurus123!@#',
+	'password' => null,
 
 	/*
 	|--------------------------------------------------------------------------

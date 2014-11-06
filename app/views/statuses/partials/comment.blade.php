@@ -5,7 +5,7 @@
 
     <div class="media-body">
         <h4 class="media-heading">{{ $comment->owner->username }}</h4>
-
+        <p><small class="status-media-time">{{ $comment->present()->timeSincePublished() }}</small></p>
         {{ $comment->body }}
     </div>
 </article>

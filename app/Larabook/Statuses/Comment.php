@@ -1,14 +1,27 @@
 <?php namespace Larabook\Statuses;
 
 
+use Laracasts\Presenter\PresentableTrait;
+
 class Comment extends \Eloquent {
+
+    use PresentableTrait;
 
     /**
      * @var array
      */
     protected $fillable = ['user_id', 'status_id', 'body'];
 
+
     /**
+     * Path to the Comment Presenter
+     *
+     * @var string
+     */
+    protected $presenter = 'Larabook\Statuses\CommentPresenter';
+
+    /**
+     *
      * @return mixed
      */
     public function owner()
