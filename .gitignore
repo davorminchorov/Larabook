@@ -4,5 +4,7 @@
 .env.php
 .DS_Store
 Thumbs.db
+node_modules
+.idea
 
 tests/_output/*
