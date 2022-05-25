@@ -9,7 +9,7 @@
 		"laracasts/validation": "1.1.*",
         "laracasts/flash": "~1.0",
         "laracasts/presenter": "0.1.*",
-        "guzzlehttp/guzzle": "4.*"
+        "guzzlehttp/guzzle": "5.*"
 	},
     "require-dev": {
         "way/generators": "~2.0",
